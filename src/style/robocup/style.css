@@ -97,7 +97,7 @@ main {
 
 .header-content {
     width: 650px;
-    height: 350px;
+    height: 380px;
 }
 
 .title-main {
@@ -109,6 +109,7 @@ main {
 .text-main {
     font-weight: 400;
     font-size: 1.5em;
+    margin-top: 25px;
 }
 
 /* About Robocup */
