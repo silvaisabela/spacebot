@@ -12,7 +12,7 @@ Como conteúdo, temos a apresentação geral do projeto e todo seu processo de c
 - HTML - Estrutura para linguagem web
 - CSS - Linguagem de folhas de estilo
 
-## Desenvolvedores do projeto
+## Responsáveis do projeto
 
 - Danielle -
 - Gabriela Noleto -
