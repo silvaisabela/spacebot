@@ -21,3 +21,8 @@ Como conteúdo, temos a apresentação geral do projeto e todo seu processo de c
 - Renato Lourenço - https://github.com/renatoloren
 
  
+- Danielle Licinio -
+- Gabriela Noleto -
+- Isabela Marques - https://github.com/IsabelaMarques07
+- Isabela Silva - https://github.com/silvaisabela/
+- Renato Lourenço - https://github.com/renatoloren
