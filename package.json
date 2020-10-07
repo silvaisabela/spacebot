@@ -1,0 +1,9 @@
+{
+  "name": "Spacebot",
+  "version": "0.0.2",
+  "description": "Site desenvolvido, para apresentação do projeto anual da faculdade FIAP no curso de sistema da informação.",
+  "main": "index.js",
+  "repository": "https://github.com/silvaisabela/spacebot.git",
+  "author": "Grupo Spacebot",
+  "license": "MIT"
+}
