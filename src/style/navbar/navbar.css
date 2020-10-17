@@ -8,6 +8,8 @@
 
 .navbar__content {
     height: 100%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -101,7 +103,7 @@
 
 
 /*  Mobile */
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .brand__link{
         grid-column: 3/7;
     }
