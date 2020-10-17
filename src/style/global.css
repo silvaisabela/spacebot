@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+}
+
+a,
+ul,
+li {
+    text-decoration: none;
+    list-style: none;
+    color: none;
+}
+
