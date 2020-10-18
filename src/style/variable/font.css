@@ -1,0 +1,20 @@
+:root{
+    --title: 64px;
+    --titleLH: 96px;
+    --titleMid: 54px;
+    --titleLHMid: 81px;
+    --titleMobile: 24px;
+    --titleLHMobile: 36px;
+    
+    --subtitle: 52px;
+    --subtitleLH: 78px;
+    --subtitleMid: 48px;
+    --subtitleLHMid: 72px;
+    --subtitleMobile: 18px;
+    --subtitleLHMobile: 27px;
+
+    --pSize: 30px;
+    --pLH: 45px;
+    --pSizeMobile: 16px;
+    --pLHMobile: 24px;
+}
