@@ -64,6 +64,8 @@
     color: var(--secondarycolor);
     background-color: var(--graydark);
     display: none;
+    z-index: 5;
+    position: relative;
 }
 
 .menu-container {
