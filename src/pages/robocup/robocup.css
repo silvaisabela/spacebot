@@ -1,15 +1,15 @@
-h1{
+.title{
     font-size: var(--title);
     line-height: var(--titleLH);
     margin-bottom: 5px;
 }
 
-h2{
+.subtitle{
     font-size: var(--subtitle);
     width: 490px;
 }
 
-p{
+.text{
     font-size: var(--pSize);
     line-height: var(--pLH);
 }
@@ -87,19 +87,19 @@ p{
 
 @media(max-width: 790px){
 
-    h1{
+    .title{
         font-size: var(--titleMid);
         line-height: var(--titleLHMid);
     }
     
-    h2{
+    .subtitle{
         font-size: var(--subtitleMobile);
         line-height: var(--subtitleLHMobile);
         width: 90%;
         margin-bottom: 20px;
     }
     
-    p{
+    .text{
         font-size: var(--pSizeMobile);
         line-height: var(--pLHMobile);
     }
@@ -161,12 +161,12 @@ p{
 
 @media(max-width: 480px){
 
-    h1{
+    .title{
         font-size: var(--titleMobile);
         line-height: var(--titleLHMobile);
     }
     
-    h2{
+    .subtitle{
         font-size: var(--subtitleMobile);
         line-height: var(--subtitleLHMobile);
         width: 90%;
