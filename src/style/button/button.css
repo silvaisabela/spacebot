@@ -1,0 +1,44 @@
+.button {
+    height: 70px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 5px black;
+    background-color: #000;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+  .button:active {
+    box-shadow: 0 2px black;
+    transform: translateY(2px);
+  }
+  
+  .button-title {
+    font-size: 4em;
+  }
+
+  @media (max-width: 480px) {
+
+  }
+
+  
+  @media(min-width:481px) and (max-width: 768px) {
+
+    .button {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+    }
+
+    .arrow__button{
+      width: 20px;
+    }
+    
+    .button-title {
+      font-size: 3.5em;
+    }
+
+  }
