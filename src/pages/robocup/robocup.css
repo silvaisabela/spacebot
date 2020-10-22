@@ -18,7 +18,7 @@
 .header{
     width: 100%;
     height: calc(100vh - 65px);
-
+    top: 65px;
     background-image: url(/src/img/robocup_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
