@@ -1,6 +1,6 @@
 .button {
-    height: 70px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,29 +17,32 @@
   }
   
   .button-title {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 
-  @media (max-width: 480px) {
- 
-
+  .button-title__mosaico {
+    font-size: 2.5em;
   }
-
+  
   
   @media(min-width:481px) and (max-width: 768px) {
 
     .button {
-      height: 60px;
-      width: 60px;
+      height: 50px;
+      width: 50px;
       border-radius: 50%;
     }
 
     .arrow__button{
-      width: 20px;
+      width: 10px;
+    }
+
+    .button-title {
+      font-size: 3em;
     }
     
-    .button-title {
-      font-size: 3.5em;
+    .button-title__mosaico {
+      font-size: 2em;
     }
 
   }
