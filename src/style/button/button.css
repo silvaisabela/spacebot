@@ -23,7 +23,7 @@
   .button-title__mosaico {
     font-size: 2.5em;
   }
-  
+ 
   
   @media(min-width:481px) and (max-width: 768px) {
 
@@ -44,5 +44,4 @@
     .button-title__mosaico {
       font-size: 2em;
     }
-
   }
