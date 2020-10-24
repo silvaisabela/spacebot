@@ -3,9 +3,9 @@ const next = document.querySelector('#slide-next')
 const slide = document.querySelector('#slide-image')
 
 const images = [
-  '/src/img/robocup_battle.jpg',
-  '/src/img/robocup_header.jpg',
-
+  '../../img/home/slide/1.jpeg',
+  '../../img/home/slide/2.jpeg',
+  '../../img/home/slide/3.jpg'
 ]
 
 let currentIndex = 0
