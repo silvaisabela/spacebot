@@ -23,6 +23,26 @@
   .button-title__mosaico {
     font-size: 2.5em;
   }
+
+  .button_game {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px #cccccc;
+    background-color: #c4c4c4;
+    border: 1px solid white;
+    cursor: pointer;
+    color: black;
+
+}
+
+.button_game:active {
+    box-shadow: 2px 2px black;
+    transform: translateY(2px);
+}
   
   
   @media(min-width:481px) and (max-width: 768px) {
