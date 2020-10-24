@@ -1,20 +1,128 @@
 :root{
-    --title: 64px;
-    --titleLH: 96px;
-    --titleMid: 54px;
-    --titleLHMid: 81px;
-    --titleMobile: 24px;
-    --titleLHMobile: 36px;
-    
-    --subtitle: 52px;
-    --subtitleLH: 78px;
-    --subtitleMid: 48px;
-    --subtitleLHMid: 72px;
-    --subtitleMobile: 18px;
-    --subtitleLHMobile: 27px;
+    /* Desktop */
+    --titleMain: 64px;
+    --lineHeightMain: 100px;
+    --texMain: 38px;
+    --textLineHeightMain: 45px;
 
-    --pSize: 30px;
-    --pLH: 45px;
-    --pSizeMobile: 16px;
-    --pLHMobile: 24px;
+    --title: 48px;
+    --lineHeightTitle: 54px;
+    --paragraphy: 28px;
+    --lineHeightParagraphy: 40px;
+
+    --titlefree: 36px;
+    --lineHeighttitlefree: 40px;
+
+    /* Mobile */
+    --titleMobileMain: 32px;
+    --lineHeightMobileMain: 60px;
+    --texMobileMain: 24px;
+    --textLineHeightMobileMain: 30px;
+
+    --titleMobile: 30px;
+    --lineHeightTitleMobile: 32px;
+    --paragraphyMobile: 24px;
+    --lineHeightParagraphyMobile: 32px;
+
+    --titlefreeMobile: 26px;
+    --lineHeighttitlefreeMobile:32px;
+    
+    /* Tablet */
+    --titleTabletMain: 44px;
+    --lineHeightTabletMain: 80px;
+    --texTabletMain: 28px;
+    --textLineHeightTabletMain: 40px;
+
+    --titleTablet: 38px;
+    --lineHeightTitleTablet: 54px;
+    --paragraphyTablet:24px;
+    --lineHeightParagraphyTablet: 36px;
+
+    --titlefreeTablet: 32px;
+    --lineHeightTitlefreeTablet: 40px;
+
+}
+
+.titleMain {
+    font-size: var(--titleMain);
+    line-height: var(--lineHeightMain);
+    font-weight: 700;
+}
+
+.textMain {
+    font-size: var( --texMain);
+    line-height: var(--textLineHeightMain);
+}
+
+.title{
+    font-size: var(--title);
+    line-height: var(--lineHeightTitle);
+    font-weight: 700;
+}
+
+.paragraphy{
+    font-size: var(--paragraphy);
+    line-height: var(--lineHeightParagraphy);
+}
+
+.titleFree{
+    font-size: var(--titlefree);
+    line-height: var(--lineHeighttitlefree);
+    font-weight: 700;
+}
+
+@media(max-width: 480px){
+    .titleMain {
+        font-size: var(--titleMobileMain);
+        line-height: var(--lineHeightMobileMain);
+    }
+
+    .textMain {
+        font-size: var( --texMobileMain);
+        line-height: var(--textLineHeightMobileMain);
+    }
+
+    .title{
+        font-size: var(--titleMobile);
+        line-height: var(--lineHeightTitleMobile);
+    }
+    
+    .paragraphy{
+        font-size: var(--paragraphyMobile);
+        line-height: var(--lineHeightParagraphyMobile);
+    }
+
+    .titleFree{
+        font-size: var(--titlefreeMobile);
+        line-height: var(--lineHeighttitlefreeMobile);
+    }
+    
+}
+
+
+@media (min-width:481px) and (max-width: 768px){
+    .titleMain {
+        font-size: var(--titleTabletMain);
+        line-height: var(--lineHeightTabletMain);
+    }
+
+    .textMain {
+        font-size: var( --texTabletMain);
+        line-height: var(--textLineHeightTabletMain);
+    }
+
+    .title{
+        font-size: var(--titleTablet);
+        line-height: var(--lineHeightTitleTablet);
+    }
+    
+    .paragraphy{
+        font-size: var(--paragraphyTablet);
+        line-height: var(--lineHeightParagraphyTablet);
+    }
+
+    .titleFree{
+        font-size: var(--titlefreeTablet);
+        line-height: var(--lineHeightTitlefreeTablet);
+    }
 }
