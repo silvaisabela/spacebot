@@ -66,6 +66,12 @@
 }
 
 @media (max-width: 480px) {
+
+  
+.contact-form {
+  min-height: auto;
+}
+
   .contact-form__container {
     padding: 40px 0;
   }
