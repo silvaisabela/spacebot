@@ -2,7 +2,7 @@
 .header-robo {
     padding: 80px 0px;
     top: 65px;
-    background-color: #575757;
+    background-color: #202020;
 }
 
 .header-robo__content {
@@ -20,6 +20,9 @@
     margin-right: 50px;
 }
 
+.header-robo__text-main{
+    padding-top: 20px;
+}
 .header-robo__text {
     padding: 50px 0px;
 }

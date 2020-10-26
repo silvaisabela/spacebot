@@ -79,6 +79,9 @@
   font-size: 3em;
 }
 
+.mosaico__image {
+  object-fit: cover;
+}
 .mosaico__container {
   grid-template-rows: repeat(6, 1fr);
 }
@@ -147,6 +150,9 @@
   margin-top: 80px;
 }
 
+.card__image{
+  object-fit: cover;
+}
 .card {
   background: #ccc;
   min-height: 600px;

@@ -24,6 +24,10 @@
     padding-bottom: 70px;
 }
 
+.header-robocup__text-main{
+padding-top: 20px;
+}
+
 /* About Robocup */
 .about-robocup {
     padding-top: 60px;
