@@ -63,7 +63,9 @@
     width: 100%;
     object-fit: cover;
 }
-
+.margin-paragraphy{
+    margin-top: 20px;
+}
 /* Galeria */
 
 .gallery_mobile {
@@ -148,7 +150,6 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 @media (max-width: 480px) {
     /* Header */

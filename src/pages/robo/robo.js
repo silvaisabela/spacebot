@@ -3,9 +3,13 @@ const next = document.querySelector('#slide-next')
 const slide = document.querySelector('#slide-image')
 
 const images = [
-  '../../img/home/slide/1.jpeg',
-  '../../img/home/slide/2.jpeg',
-  '../../img/home/slide/3.jpg'
+  '../../img/robo/gallery/1.png',
+  '../../img/robo/gallery/2.jpg',
+  '../../img/robo/gallery/3.jpg',
+  '../../img/robo/gallery/4.jpg',
+  '../../img/robo/gallery/5.jpg',
+  '../../img/robo/gallery/6.jpg',
+  '../../img/robo/gallery/7.png'
 ]
 
 let currentIndex = 0
@@ -36,6 +40,3 @@ const slideBack = (e) => {
 }
 
 setInterval(slideNext, 3000)
-
-next.addEventListener('click', slideNext)
-back.addEventListener('click', slideBack)
