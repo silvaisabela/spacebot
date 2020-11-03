@@ -13,6 +13,12 @@ li {
     color: none;
 }
 
-body{
+canvas {
+    display: block;
+    margin: 40px auto;
+    width: 100%;
+}
+
+body {
     margin-top: 65px;
 }
