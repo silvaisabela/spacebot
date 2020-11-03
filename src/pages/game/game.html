@@ -43,14 +43,26 @@
             </div>
         </div>
     </nav>
-    <section class="loader-game">
-        <div class="container loader-game__content">
-            <p class="paragraphy loader-game__text">Game em desenvolvimento, lançamento na próxima semana.</p>
-            <div class="loader"></div>
+    <section class="gameDescription">
+        <div class="container">
+            <p class="titleMain titleGame">Game</p>
+            <p class="paragraphy">Cygnus precisa da sua ajuda! Neste gameplay você terá a chance de vencer a competição
+                da FIAP ao derrotar o robô adversário. Cada vez que acontecer uma colisão entre os robôs o nível de vida dos dois diminuirá. Após 5 colisões, o jogo termina e o robô que ficar com o maior nível de vida será o considerado o vencedor.
+                </p>
+                <p class="paragraphy"> Siga os comandos e torne-se um campeão.</p>
+            <div class="wayToPlay">
+                <p class="descriptionGame">Utilize as teclas do teclado A, S, D, W, para movimentar o robô Play1 para
+                    cima, baixo, direita e esqueda.</p>
+                <p class="descriptionGame">Utilize as teclas do teclado, para movimentar o robô Play2 para cima, baixo,
+                    direita e esqueda.</p>
+                <p class="descriptionGame">Para reiniciar o jogo clique a tecla F5. </p>
+            </div>
         </div>
-        
+
     </section>
 
+    <section id="game">
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="footer__content">
@@ -100,6 +112,10 @@
         </div>
     </div>
     <script src="../../style/navbar/navbar.js"></script>
+    <script defer src="https://unpkg.com/p5"></script>
+    <script defer src="https://unpkg.com/p5.collide2d"></script>
+    <script src="robo.js"></script>
+    <script src="game.js"></script>
 </body>
 
 </html>
